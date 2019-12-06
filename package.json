@@ -1,0 +1,26 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "Basic A Node Js API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sly01/nodeapi.git"
+  },
+  "keywords": [
+    "node",
+    "api"
+  ],
+  "author": "Ahmet Erkoc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sly01/nodeapi/issues"
+  },
+  "homepage": "https://github.com/sly01/nodeapi#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
