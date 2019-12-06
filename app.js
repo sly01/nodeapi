@@ -1,7 +1,11 @@
 const express = require("express")
 const app = express()
+const morgan = require("morgan")
 
 const { getPosts } = require('./routes/post')
+
+// middleware
+app.use(morgan('dev'))
 
 app.get("/", getPosts)
 
